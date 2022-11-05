@@ -4,7 +4,7 @@
 # Usage:
 
 func main() {
-	cache := cache.New()
+	cache := Gocache.New()
 
 	cache.Set("userId", 42)
 	userId := cache.Get("userId")
