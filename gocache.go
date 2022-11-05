@@ -1,4 +1,4 @@
-package gomemorycache
+package gocache
 
 import (
 	"errors"
